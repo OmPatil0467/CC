@@ -1,0 +1,13 @@
+sudo su
+apt update
+apt upgrade
+apt install apache2
+cd /var/www/html
+rm index.html
+git clone https://www.github.com/lolzhub/cc
+mv cc/* ./
+rm -rf cc
+
+//inst id: ...76
+
+//WVVoU01HTklUVFpNZVRnd1RXcFpNazlFWjNoT2FtY3dUbnBOZFdNeWJHNWliV3gxVEcxR00yTjVOV2hpVjBZMllqSTBkVmt5T1hSTU1rNTJZbTVPZG1KSFZUMD0=
